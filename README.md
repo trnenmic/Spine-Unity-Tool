@@ -1,4 +1,4 @@
-Spine Web Scenes
+Spine Unity Tool
 =============
 
 ## About
