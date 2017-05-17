@@ -1,0 +1,120 @@
+
+all_assets0.png
+size: 2048,1024
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+banner_sm
+  rotate: false
+  xy: 0, 846
+  size: 149, 178
+  orig: 149, 178
+  offset: 0, 0
+hall_computer_sm
+  rotate: false
+  xy: 0, 469
+  size: 383, 377
+  orig: 383, 377
+  offset: 0, 0
+cryo_closed_damage_sm
+  rotate: false
+  xy: 0, 115
+  size: 168, 354
+  orig: 168, 354
+  offset: 0, 0
+cryo_open_sm
+  rotate: false
+  xy: 383, 489
+  size: 168, 535
+  orig: 168, 535
+  offset: 0, 0
+hall_plain_v1_sm
+  rotate: false
+  xy: 383, 112
+  size: 294, 377
+  orig: 294, 377
+  offset: 0, 0
+AI_monitor_sm
+  rotate: false
+  xy: 551, 730
+  size: 457, 294
+  orig: 457, 294
+  offset: 0, 0
+hall_terminal_sm
+  rotate: false
+  xy: 149, 922
+  size: 124, 102
+  orig: 124, 102
+  offset: 0, 0
+room_terminal_pillar_sm
+  rotate: false
+  xy: 168, 190
+  size: 56, 279
+  orig: 56, 279
+  offset: 0, 0
+room_corner_ceiling_L_sm
+  rotate: false
+  xy: 168, 3
+  size: 203, 187
+  orig: 203, 187
+  offset: 0, 0
+hall_endL_sm
+  rotate: false
+  xy: 677, 353
+  size: 122, 377
+  orig: 122, 377
+  offset: 0, 0
+room_plain_v1_sm
+  rotate: false
+  xy: 799, 145
+  size: 184, 585
+  orig: 184, 585
+  offset: 0, 0
+AI_left_terminal_sm
+  rotate: false
+  xy: 983, 453
+  size: 195, 277
+  orig: 195, 277
+  offset: 0, 0
+splitter_v1_sm
+  rotate: false
+  xy: 551, 532
+  size: 106, 198
+  orig: 106, 198
+  offset: 0, 0
+room_terminal_monitor_sm
+  rotate: false
+  xy: 1008, 856
+  size: 190, 168
+  orig: 190, 168
+  offset: 0, 0
+AI_right_terminal_sm
+  rotate: false
+  xy: 983, 169
+  size: 197, 284
+  orig: 197, 284
+  offset: 0, 0
+hall_ladder_wall_a2_sm
+  rotate: false
+  xy: 1178, 479
+  size: 343, 377
+  orig: 343, 377
+  offset: 0, 0
+room_corner_bottom_L_sm
+  rotate: false
+  xy: 1180, 66
+  size: 325, 413
+  orig: 325, 413
+  offset: 0, 0
+cryo3_sm
+  rotate: false
+  xy: 1505, 125
+  size: 168, 354
+  orig: 168, 354
+  offset: 0, 0
+AI_middle_terminal_sm
+  rotate: false
+  xy: 1521, 745
+  size: 209, 279
+  orig: 209, 279
+  offset: 0, 0

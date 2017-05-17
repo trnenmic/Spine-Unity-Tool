@@ -1,0 +1,48 @@
+
+cryo_scene_sm0.png
+size: 1024,1024
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+room_corner_bottom_L_sm
+  rotate: false
+  xy: 0, 611
+  size: 325, 413
+  orig: 325, 413
+  offset: 0, 0
+room_corner_ceiling_L_sm
+  rotate: false
+  xy: 0, 424
+  size: 203, 187
+  orig: 203, 187
+  offset: 0, 0
+room_plain_v1_sm
+  rotate: false
+  xy: 203, 26
+  size: 184, 585
+  orig: 184, 585
+  offset: 0, 0
+hall_endL_sm
+  rotate: false
+  xy: 0, 47
+  size: 122, 377
+  orig: 122, 377
+  offset: 0, 0
+hall_plain_v1_sm
+  rotate: false
+  xy: 325, 647
+  size: 294, 377
+  orig: 294, 377
+  offset: 0, 0
+cryo_closed_damage_sm
+  rotate: false
+  xy: 387, 293
+  size: 168, 354
+  orig: 168, 354
+  offset: 0, 0
+cryo3_sm
+  rotate: false
+  xy: 555, 293
+  size: 168, 354
+  orig: 168, 354
+  offset: 0, 0

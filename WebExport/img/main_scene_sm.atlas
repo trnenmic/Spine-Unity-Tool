@@ -1,0 +1,54 @@
+
+main_scene_sm0.png
+size: 1024,1024
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+room_corner_bottom_L_sm
+  rotate: false
+  xy: 0, 611
+  size: 325, 413
+  orig: 325, 413
+  offset: 0, 0
+hall_plain_v1_sm
+  rotate: false
+  xy: 0, 234
+  size: 294, 377
+  orig: 294, 377
+  offset: 0, 0
+room_plain_v1_sm
+  rotate: false
+  xy: 294, 26
+  size: 184, 585
+  orig: 184, 585
+  offset: 0, 0
+splitter_v1_sm
+  rotate: false
+  xy: 0, 36
+  size: 106, 198
+  orig: 106, 198
+  offset: 0, 0
+room_terminal_pillar_sm
+  rotate: false
+  xy: 325, 745
+  size: 56, 279
+  orig: 56, 279
+  offset: 0, 0
+room_terminal_monitor_sm
+  rotate: false
+  xy: 381, 856
+  size: 190, 168
+  orig: 190, 168
+  offset: 0, 0
+hall_endL_sm
+  rotate: false
+  xy: 571, 647
+  size: 122, 377
+  orig: 122, 377
+  offset: 0, 0
+room_corner_ceiling_L_sm
+  rotate: false
+  xy: 693, 837
+  size: 203, 187
+  orig: 203, 187
+  offset: 0, 0

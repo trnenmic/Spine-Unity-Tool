@@ -1,0 +1,12 @@
+
+character_garry_scene0.png
+size: 512,512
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+hall_plain_v1_sm
+  rotate: false
+  xy: 0, 135
+  size: 294, 377
+  orig: 294, 377
+  offset: 0, 0

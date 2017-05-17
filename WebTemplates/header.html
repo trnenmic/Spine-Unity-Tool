@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script class="script-dart" async type="application/dart" src="main.dart"></script>
+    <script class="script-js" async type="text/javascript" src="packages/browser/dart.js"></script>
+</head>
+<body>
+<progress max="100" value="1">
+</progress>
+<script>
+    (function () {
+        var p = document.querySelector("progress");
+        var dp = document.querySelector(".progress-bar");
+        var sd = document.querySelector(".script-dart");
+        var sj = document.querySelector(".script-js");
+        var it = 0;
+
+        function inc() {
+            var pv = parseFloat(p.value);
+            pv += Math.floor(Math.random() * (10 - 5)) + 5;
+            if (pv < 30) {
+                p.value = pv + "";
+            }
+        }
+
+        for (var i = 0; i < 20; i++) {
+            setTimeout(inc, i * 500);
+        }
+    }());
+</script>
+<button id="scroll-up" class="hide">&uarr;</button>

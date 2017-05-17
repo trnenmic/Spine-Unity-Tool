@@ -1,0 +1,134 @@
+{
+    "m_AutoRepaintOnSceneChange": false,
+    "m_MinSize": {
+        "x": 100.0,
+        "y": 100.0
+    },
+    "m_MaxSize": {
+        "x": 4000.0,
+        "y": 4000.0
+    },
+    "m_TitleContent": {
+        "m_Text": "WebEditor",
+        "m_Image": {
+            "instanceID": 0
+        },
+        "m_Tooltip": ""
+    },
+    "m_DepthBufferBits": 0,
+    "m_AntiAlias": 0,
+    "m_Pos": {
+        "serializedVersion": "2",
+        "x": 1044.0,
+        "y": 175.0,
+        "width": 523.0,
+        "height": 583.0
+    },
+    "editorStages": [
+        {
+            "fName": "character_hero_scene",
+            "id": "character_hero_scene",
+            "order": 0,
+            "group": "characters",
+            "width": 640,
+            "height": 640,
+            "useLocalAssets": false,
+            "isErased": false,
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "hero",
+            "selected": 1
+        },
+        {
+            "fName": "character_ai_scene",
+            "id": "character_ai_scene",
+            "order": 1,
+            "group": "characters",
+            "width": 640,
+            "height": 640,
+            "useLocalAssets": false,
+            "isErased": false,
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "ai",
+            "selected": 2
+        },
+        {
+            "fName": "character_todd_scene",
+            "id": "character_todd_scene",
+            "order": 2,
+            "group": "characters",
+            "width": 640,
+            "height": 640,
+            "useLocalAssets": false,
+            "isErased": false,
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "todd",
+            "selected": 3
+        },
+        {
+            "fName": "weapons_scene",
+            "id": "weapons_scene",
+            "order": 3,
+            "group": "",
+            "width": 640,
+            "height": 640,
+            "useLocalAssets": false,
+            "isErased": false,
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": true,
+            "moduleShootAim": true,
+            "moduleDialogue": false,
+            "moduleQuote": false,
+            "moduleFight": false,
+            "moduleCharacter": "none",
+            "selected": 0
+        },
+        {
+            "fName": "fight_scene",
+            "id": "fight_scene",
+            "order": 4,
+            "group": "",
+            "width": 640,
+            "height": 640,
+            "useLocalAssets": false,
+            "isErased": false,
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": false,
+            "moduleFight": true,
+            "moduleCharacter": "none",
+            "selected": 0
+        }
+    ],
+    "editorPage": {
+        "useAllAssets": true
+    },
+    "preferencesName": "2017-04-28",
+    "exportName": "cfg",
+    "stageCount": 2,
+    "myString": "",
+    "obj": {
+        "instanceID": 0
+    }
+}

@@ -1,0 +1,36 @@
+
+html_scene0.png
+size: 2048,4096
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+hall_plain_v1
+  rotate: false
+  xy: 0, 3343
+  size: 1073, 753
+  orig: 1073, 753
+  offset: 0, 0
+room_plain_v1
+  rotate: false
+  xy: 1073, 2927
+  size: 734, 1169
+  orig: 734, 1169
+  offset: 0, 0
+room_corner_L
+  rotate: false
+  xy: 0, 1741
+  size: 1172, 1186
+  orig: 1172, 1186
+  offset: 0, 0
+hall_endL
+  rotate: false
+  xy: 1172, 2174
+  size: 503, 753
+  orig: 503, 753
+  offset: 0, 0
+splitter_v1
+  rotate: false
+  xy: 1675, 2174
+  size: 343, 753
+  orig: 343, 753
+  offset: 0, 0

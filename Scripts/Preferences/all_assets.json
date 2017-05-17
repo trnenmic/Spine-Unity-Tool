@@ -1,0 +1,183 @@
+{
+    "m_AutoRepaintOnSceneChange": false,
+    "m_MinSize": {
+        "x": 100.0,
+        "y": 100.0
+    },
+    "m_MaxSize": {
+        "x": 4000.0,
+        "y": 4000.0
+    },
+    "m_TitleContent": {
+        "m_Text": "WebEditor",
+        "m_Image": {
+            "instanceID": 0
+        },
+        "m_Tooltip": ""
+    },
+    "m_DepthBufferBits": 0,
+    "m_AntiAlias": 0,
+    "m_Pos": {
+        "serializedVersion": "2",
+        "x": 596.0,
+        "y": 159.0,
+        "width": 493.0,
+        "height": 591.0
+    },
+    "editorStages": [
+        {
+            "myFoldoutStyle": {
+                "m_Name": "Foldout",
+                "m_Normal": {
+                    "m_Background": {
+                        "instanceID": 3492
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                },
+                "m_Hover": {
+                    "m_Background": {
+                        "instanceID": 0
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                },
+                "m_Active": {
+                    "m_Background": {
+                        "instanceID": 4352
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.19582809507846833,
+                        "b": 0.9029850959777832,
+                        "a": 1.0
+                    }
+                },
+                "m_Focused": {
+                    "m_Background": {
+                        "instanceID": 4108
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.19582809507846833,
+                        "b": 0.9029850959777832,
+                        "a": 1.0
+                    }
+                },
+                "m_OnNormal": {
+                    "m_Background": {
+                        "instanceID": 5168
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                },
+                "m_OnHover": {
+                    "m_Background": {
+                        "instanceID": 0
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                },
+                "m_OnActive": {
+                    "m_Background": {
+                        "instanceID": 6486
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.19582809507846833,
+                        "b": 0.9029850959777832,
+                        "a": 1.0
+                    }
+                },
+                "m_OnFocused": {
+                    "m_Background": {
+                        "instanceID": 4594
+                    },
+                    "m_ScaledBackgrounds": [],
+                    "m_TextColor": {
+                        "r": 0.0,
+                        "g": 0.19582809507846833,
+                        "b": 0.9029850959777832,
+                        "a": 1.0
+                    }
+                },
+                "m_Border": {
+                    "m_Left": 14,
+                    "m_Right": 0,
+                    "m_Top": 13,
+                    "m_Bottom": 0
+                },
+                "m_Margin": {
+                    "m_Left": 4,
+                    "m_Right": 4,
+                    "m_Top": 2,
+                    "m_Bottom": 2
+                },
+                "m_Padding": {
+                    "m_Left": 14,
+                    "m_Right": 2,
+                    "m_Top": 1,
+                    "m_Bottom": 2
+                },
+                "m_Overflow": {
+                    "m_Left": 0,
+                    "m_Right": 0,
+                    "m_Top": -1,
+                    "m_Bottom": 0
+                },
+                "m_Font": {
+                    "instanceID": 0
+                },
+                "m_FontSize": 0,
+                "m_FontStyle": 1,
+                "m_Alignment": 0,
+                "m_WordWrap": false,
+                "m_RichText": false,
+                "m_TextClipping": 0,
+                "m_ImagePosition": 0,
+                "m_ContentOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "m_FixedWidth": 0.0,
+                "m_FixedHeight": 0.0,
+                "m_StretchWidth": true,
+                "m_StretchHeight": false
+            },
+            "fName": "all_assets",
+            "id": "all_assets",
+            "order": 0,
+            "isErased": false
+        }
+    ],
+    "preferencesName": "all_assets",
+    "exportName": "cfg",
+    "stageCount": 2,
+    "myString": "",
+    "obj": {
+        "instanceID": 0
+    }
+}

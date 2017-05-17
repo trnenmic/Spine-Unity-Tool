@@ -1,0 +1,18 @@
+
+light_test0.png
+size: 2048,1024
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+hall_endL
+  rotate: false
+  xy: 0, 271
+  size: 503, 753
+  orig: 503, 753
+  offset: 0, 0
+hall_ladder_wall_a2
+  rotate: false
+  xy: 503, 271
+  size: 1379, 753
+  orig: 1379, 753
+  offset: 0, 0

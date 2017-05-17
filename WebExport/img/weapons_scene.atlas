@@ -1,0 +1,60 @@
+
+weapons_scene0.png
+size: 1024,1024
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+hall_plain_v1_sm
+  rotate: false
+  xy: 0, 647
+  size: 294, 377
+  orig: 294, 377
+  offset: 0, 0
+room_plain_v1_sm
+  rotate: false
+  xy: 0, 62
+  size: 184, 585
+  orig: 184, 585
+  offset: 0, 0
+room_corner_ceiling_L_sm
+  rotate: false
+  xy: 184, 460
+  size: 203, 187
+  orig: 203, 187
+  offset: 0, 0
+hall_endL_sm
+  rotate: false
+  xy: 294, 647
+  size: 122, 377
+  orig: 122, 377
+  offset: 0, 0
+splitter_v1_sm
+  rotate: false
+  xy: 184, 262
+  size: 106, 198
+  orig: 106, 198
+  offset: 0, 0
+cryo3_sm
+  rotate: false
+  xy: 290, 106
+  size: 168, 354
+  orig: 168, 354
+  offset: 0, 0
+cryo_closed_damage_sm
+  rotate: false
+  xy: 416, 670
+  size: 168, 354
+  orig: 168, 354
+  offset: 0, 0
+cryo_open_sm
+  rotate: false
+  xy: 458, 135
+  size: 168, 535
+  orig: 168, 535
+  offset: 0, 0
+room_corner_bottom_L_sm
+  rotate: false
+  xy: 626, 611
+  size: 325, 413
+  orig: 325, 413
+  offset: 0, 0

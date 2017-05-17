@@ -1,0 +1,1185 @@
+{
+    "stages": [
+        {
+            "id": "character_hero_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "hero",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm8",
+                    "x": 805,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm9",
+                    "x": 914,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm7",
+                    "x": -861,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm6",
+                    "x": -663,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm11",
+                    "x": 1128,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm10",
+                    "x": -980,
+                    "y": -368,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -146,
+                    "y": -368,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm1",
+                    "x": -95,
+                    "y": -365,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "banner_sm",
+                    "x": 661,
+                    "y": -360,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "banner_sm"
+                },
+                {
+                    "name": "splitter_v1_sm2",
+                    "x": 332,
+                    "y": -363,
+                    "sort": 13,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "hall_computer_sm",
+                    "x": -472,
+                    "y": -368,
+                    "sort": 14,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_computer_sm"
+                },
+                {
+                    "name": "splitter_v1_sm",
+                    "x": -822,
+                    "y": -363,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 16,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight",
+                    "x": 6,
+                    "y": -366,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        },
+        {
+            "id": "character_ai_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "ai",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -864,
+                    "y": -366,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -1135,
+                    "y": -366,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -572,
+                    "y": -366,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 795,
+                    "y": -366,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 1087,
+                    "y": -366,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 526,
+                    "y": -366,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm4",
+                    "x": 306,
+                    "y": -260,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm2",
+                    "x": -9,
+                    "y": -260,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm",
+                    "x": -291,
+                    "y": -260,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm3",
+                    "x": 141,
+                    "y": -260,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm1",
+                    "x": -133,
+                    "y": -260,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_corner_bottom_L_sm",
+                    "x": -528,
+                    "y": -348,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm",
+                    "x": -467,
+                    "y": -62,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                },
+                {
+                    "name": "room_corner_bottom_L_sm1",
+                    "x": 535,
+                    "y": -348,
+                    "sort": 13,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm1",
+                    "x": 473,
+                    "y": -62,
+                    "sort": 14,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                },
+                {
+                    "name": "splitter_v1_sm",
+                    "x": 854,
+                    "y": -363,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "AI_monitor_sm",
+                    "x": 4,
+                    "y": -117,
+                    "sort": 16,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "AI_monitor_sm"
+                },
+                {
+                    "name": "splitter_v1_sm1",
+                    "x": -838,
+                    "y": -363,
+                    "sort": 17,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "ai",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 18,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "ai_rev_2",
+                    "skin": "ai",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight3",
+                    "x": 326,
+                    "y": -156,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight2",
+                    "x": -329,
+                    "y": -189,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight",
+                    "x": 0,
+                    "y": -281,
+                    "sort": 0,
+                    "scaleX": 0.5099999904632568,
+                    "scaleY": 1.5499999523162842,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight",
+                    "x": 3,
+                    "y": -360,
+                    "sort": 0,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight1",
+                    "x": 0,
+                    "y": -386,
+                    "sort": 0,
+                    "scaleX": 4.0,
+                    "scaleY": 4.0,
+                    "alpha": 0.23399999737739564,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight1",
+                    "x": 4,
+                    "y": -276,
+                    "sort": 0,
+                    "scaleX": 2.9079954624176027,
+                    "scaleY": 1.5603580474853516,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                }
+            ]
+        },
+        {
+            "id": "character_todd_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "todd",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 515,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm7",
+                    "x": 1002,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": -8,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -261,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm8",
+                    "x": -1003,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": 784,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -540,
+                    "y": -368,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 261,
+                    "y": -368,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm6",
+                    "x": -802,
+                    "y": -368,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_ladder_wall_a2_sm",
+                    "x": -356,
+                    "y": -368,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_ladder_wall_a2_sm"
+                },
+                {
+                    "name": "hall_ladder_wall_a2_sm1",
+                    "x": 403,
+                    "y": -366,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_ladder_wall_a2_sm"
+                },
+                {
+                    "name": "cryo3_sm",
+                    "x": 403,
+                    "y": -373,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "cryo3_sm"
+                },
+                {
+                    "name": "cryo3_sm1",
+                    "x": -358,
+                    "y": -376,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "cryo3_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "todd",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 13,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "todd",
+                    "skin": "default",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight",
+                    "x": -32,
+                    "y": -405,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        },
+        {
+            "id": "weapons_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": true,
+            "moduleShootAim": true,
+            "moduleDialogue": false,
+            "moduleQuote": false,
+            "moduleFight": false,
+            "moduleCharacter": "none",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm5",
+                    "x": -332,
+                    "y": -263,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 917,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -680,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm3",
+                    "x": 210,
+                    "y": -263,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm2",
+                    "x": 29,
+                    "y": -263,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm4",
+                    "x": 342,
+                    "y": -263,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm1",
+                    "x": -154,
+                    "y": -263,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -967,
+                    "y": -368,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -1249,
+                    "y": -368,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 1206,
+                    "y": -368,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm",
+                    "x": -332,
+                    "y": -263,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm",
+                    "x": -518,
+                    "y": -64,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                },
+                {
+                    "name": "hall_endL_sm",
+                    "x": -1384,
+                    "y": -369,
+                    "sort": 13,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL_sm"
+                },
+                {
+                    "name": "hall_endL_sm1",
+                    "x": 1344,
+                    "y": -364,
+                    "sort": 14,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm1",
+                    "x": 525,
+                    "y": -64,
+                    "sort": 15,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                },
+                {
+                    "name": "splitter_v1_sm1",
+                    "x": 969,
+                    "y": -364,
+                    "sort": 16,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm",
+                    "x": -937,
+                    "y": -364,
+                    "sort": 17,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "cryo3_sm",
+                    "x": 2,
+                    "y": -374,
+                    "sort": 18,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "cryo3_sm"
+                },
+                {
+                    "name": "cryo_closed_damage_sm",
+                    "x": -292,
+                    "y": -374,
+                    "sort": 19,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "cryo_closed_damage_sm"
+                },
+                {
+                    "name": "cryo_open_sm",
+                    "x": 315,
+                    "y": -282,
+                    "sort": 20,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "cryo_open_sm"
+                },
+                {
+                    "name": "room_corner_bottom_L_sm",
+                    "x": -578,
+                    "y": -350,
+                    "sort": 21,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "room_corner_bottom_L_sm1",
+                    "x": 585,
+                    "y": -350,
+                    "sort": 23,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "hero",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 22,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "SpotLight1",
+                    "x": 321,
+                    "y": -289,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.5,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight2",
+                    "x": -333,
+                    "y": -539,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight1",
+                    "x": 315,
+                    "y": -539,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight2",
+                    "x": -293,
+                    "y": -289,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.5,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight",
+                    "x": 7,
+                    "y": -539,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight",
+                    "x": 5,
+                    "y": -289,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.5,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                }
+            ]
+        },
+        {
+            "id": "fight_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": false,
+            "moduleFight": true,
+            "moduleCharacter": "none",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -680,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm9",
+                    "x": 1159,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm8",
+                    "x": -1184,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm6",
+                    "x": -918,
+                    "y": -368,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm7",
+                    "x": 906,
+                    "y": -368,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -148,
+                    "y": -368,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_ladder_wall_a2_sm",
+                    "x": -642,
+                    "y": -366,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_ladder_wall_a2_sm"
+                },
+                {
+                    "name": "hall_ladder_wall_a2_sm1",
+                    "x": 745,
+                    "y": -369,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_ladder_wall_a2_sm"
+                },
+                {
+                    "name": "room_terminal_pillar_sm1",
+                    "x": 743,
+                    "y": -316,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_pillar_sm"
+                },
+                {
+                    "name": "room_terminal_pillar_sm",
+                    "x": -645,
+                    "y": -314,
+                    "sort": 13,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_pillar_sm"
+                },
+                {
+                    "name": "room_terminal_monitor_sm1",
+                    "x": 745,
+                    "y": -404,
+                    "sort": 14,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_monitor_sm"
+                },
+                {
+                    "name": "room_terminal_monitor_sm",
+                    "x": -642,
+                    "y": -401,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_monitor_sm"
+                },
+                {
+                    "name": "splitter_v1_sm2",
+                    "x": 1059,
+                    "y": -365,
+                    "sort": 16,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "banner_sm",
+                    "x": 23,
+                    "y": -364,
+                    "sort": 18,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "banner_sm"
+                },
+                {
+                    "name": "splitter_v1_sm",
+                    "x": -279,
+                    "y": -365,
+                    "sort": 19,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm3",
+                    "x": -996,
+                    "y": -365,
+                    "sort": 20,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm1",
+                    "x": 386,
+                    "y": -365,
+                    "sort": 21,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "hero",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 17,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                },
+                {
+                    "name": "basic_crawler",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 22,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "crawler",
+                    "skin": "crawler",
+                    "idle": "",
+                    "isActor": false
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "SpotLight",
+                    "x": 19,
+                    "y": -362,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "SpotLight2",
+                    "x": 674,
+                    "y": -362,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 0.7098039388656616,
+                    "type": "Spot"
+                },
+                {
+                    "name": "SpotLight1",
+                    "x": -629,
+                    "y": -362,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 0.7089999914169312,
+                    "type": "Spot"
+                }
+            ]
+        }
+    ],
+    "name": "scene",
+    "useGlobalAssets": true,
+    "groups": [
+        "characters"
+    ]
+}

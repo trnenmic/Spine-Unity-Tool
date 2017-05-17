@@ -1,0 +1,321 @@
+<div class="header">
+    <h1>End of Line</h1>
+    <button class="buy">BUY NOW</button>
+</div>
+<div class="background-filter hide"></div>
+<article class="first">
+    <div class="timeline-cover">
+        <div class="timeline-characters"></div>
+        <div class="timeline-overlay"></div>
+    </div>
+    <div class="shape">
+        <div class="head-wrapper">
+            <div class="rectangle-top">
+                <div class="rectangle-top-2">
+                    <header>
+                        <h2>2D STORY-DRIVEN SHOOTER</h2>
+                        <p></p>
+                    </header>
+                </div>
+            </div>
+            <div class="triangle-wrapper-400">
+                <div class="triangle-down-left scale-30"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-row">
+                <div>
+                    <div class="box">
+                        <h3>What's new</h3>
+                        <p>Check our blog:</p>
+                        <a class="page-link" href="https://digital-shard.com">Find out more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <h3>Now available at</h3>
+                        <ul>
+                            <li>Steam</li>
+                            <li>Gog</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <h3>About</h3>
+                        <p>Reveal the mysteries of empty space station where your only friend is suspicious female
+                            hologram. Fight the sneaking creatures that hide in dark shadows.</p>
+                    </div>
+                </div>
+            </div>
+            <iframe width="854" height="480" allowfullscreen class="video"
+                    src="https://www.youtube.com/embed/LLigtPWN3vE?color=white&rel=0&showinfo=0"></iframe>
+            <!--  https://www.youtube.com/embed/XGSy3_Czz8k-->
+        </div>  <!-- 640x 360 -->
+        <div class="triangle-wrapper-256">
+            <div class="triangle-up-left floater scale-10"></div>
+        </div>
+    </div>
+</article>
+<div class="fill">
+</div><article class="tab-parent" id="characters">
+    <header class="black-box"></header>
+    <div class="tab-row">
+<div class="tab-cell">
+    <a href="javascript:;" class="tab-button"><h3>Name</h3></a> <!--add 'hero', 'ai', 'todd' to class. Plus add 'current to the first one -->
+</div><div class="tab-cell">
+    <a href="javascript:;" class="tab-button"><h3>Name</h3></a> <!--add 'hero', 'ai', 'todd' to class. Plus add 'current to the first one -->
+</div><div class="tab-cell">
+    <a href="javascript:;" class="tab-button"><h3>Name</h3></a> <!--add 'hero', 'ai', 'todd' to class. Plus add 'current to the first one -->
+</div></div>
+    <div class="tab-controller">
+        <button class="tab-previous">
+            <svg class="icon sm">
+                <use xlink:href="svg/icons/icons.svg#previous"></use>
+            </svg>
+        </button>
+        <button class="tab-next">
+            <svg class="icon sm">
+                <use xlink:href="svg/icons/icons.svg#next"></use>
+            </svg>
+        </button>
+    </div>	<div class="widget loop">
+        <div>
+            <canvas id="character_hero_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="characters">
+                <div class="character-controls">
+                    <button class="emotion talk click-1">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#talk"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion heart click-2">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#love"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion dislike click-3">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#dislike"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="character-box"></div>
+            </div>
+            <div class="quotes">
+                <p class="q-intro"></p>
+                <p class="q-last-click"></p>
+                <p class="q-click"></p>
+                <p class="q-scroll"></p>
+                <p class="q-1"></p>
+                <p class="q-2"></p>
+                <p class="q-3"></p>
+				<p class="q-stored"></p>
+				<p class="q-intro-locked"></p>
+				<p class="q-lock-1"></p>
+				<p class="q-lock-2"></p>
+				<p class="q-lock-3"></p>
+            </div>
+        </div>
+    </div>	<div class="widget hide">
+        <div>
+            <canvas id="character_ai_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="characters">
+                <div class="character-controls">
+                    <button class="emotion talk click-1">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#talk"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion heart click-2">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#love"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion dislike click-3">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#dislike"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="character-box"></div>
+            </div>
+            <div class="quotes">
+                <p class="q-intro"></p>
+                <p class="q-last-click"></p>
+                <p class="q-click"></p>
+                <p class="q-scroll"></p>
+                <p class="q-1"></p>
+                <p class="q-2"></p>
+                <p class="q-3"></p>
+				<p class="q-stored"></p>
+				<p class="q-intro-locked"></p>
+				<p class="q-lock-1"></p>
+				<p class="q-lock-2"></p>
+				<p class="q-lock-3"></p>
+            </div>
+        </div>
+    </div>	<div class="widget hide">
+        <div>
+            <canvas id="character_todd_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="characters">
+                <div class="character-controls">
+                    <button class="emotion talk click-1">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#talk"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion heart click-2">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#love"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion dislike click-3">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#dislike"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="character-box"></div>
+            </div>
+            <div class="quotes">
+                <p class="q-intro"></p>
+                <p class="q-last-click"></p>
+                <p class="q-click"></p>
+                <p class="q-scroll"></p>
+                <p class="q-1"></p>
+                <p class="q-2"></p>
+                <p class="q-3"></p>
+				<p class="q-stored"></p>
+				<p class="q-intro-locked"></p>
+				<p class="q-lock-1"></p>
+				<p class="q-lock-2"></p>
+				<p class="q-lock-3"></p>
+            </div>
+        </div>
+    </div><footer class="black-box"></footer>
+</article><article>
+    <h2 class="widget-heading">Pick the right weapon</h2>
+    <div class="widget">
+        <div>
+            <canvas id="weapons_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="weapons tab-row">
+                <div class="tab-cell">
+                    <button class="weapon pistol"></button> <!-- class can be set to 'pistol', 'rifle', 'shotgun' -->
+                    <button class="more click-1">MORE</button>  <!-- class can be set to 'click-1', 'click-2', 'click-3'  -->
+                </div>
+            </div>
+            <div class="tab-controller">
+                <button class="tab-previous">
+                    <svg class="icon sm">
+                        <use xlink:href="svg/icons/icons.svg#previous"></use>
+                    </svg>
+                </button>
+                <button class="tab-next">
+                    <svg class="icon sm">
+                        <use xlink:href="svg/icons/icons.svg#next"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="weapon-descriptions">
+                <article class="description pistol"> <!-- class can be set to 'pistol', 'rifle', 'shotgun'  -->
+                    <button>&#10006;</button>
+                    <h3>L12 PISTOL</h3>
+                    <img src="img/hd_pistol.png" alt="L12 Pistol"/> <!-- replace img source  -->
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est
+                        et expedita
+                        distinctio.
+                        Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nunc dapibus tortor vel
+                        mi dapibus
+                        sollicitudin.
+                        Praesent vitae arcu tempor neque lacinia pretium. Nullam faucibus mi quis velit. In
+                        convallis. Sed elit dui,
+                        pellentesque a, faucibus vel, interdum nec, diam. Integer malesuada. Pellentesque arcu. Sed
+                        ac dolor sit amet
+                        purus
+                        malesuada congue. Nunc auctor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus
+                        mus.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</article><article>
+    <h2 class="widget-heading">Fight with monsters</h2>
+    <div class="widget no-load">
+        <div class="invisible">
+            <canvas id="fight_scene"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="player-controls">
+                <button class="melee hide">
+                    <svg class="icon">
+                        <use xlink:href="svg/icons/icons.svg#punch"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="fight-section">
+                <article class="fight-article current">
+                    <h3>Escaping the hell</h3>
+                    <p class="fight-info">
+                        As you explore the giant space station, you reveal the mysteries that are
+                        sometimes more dangerous than you expect. Are you prepared for the challenge?
+                    </p>
+                    <p class="fight-failure display-none">
+                        Sharp teeth of the creature has bitten your neck and you are lying dead in the pool of blood...
+                    </p>
+                    <p class="fight-lock display-none">
+                        To unlock the next location type down the real name of robot Todd.
+                    </p>
+                    <p class="fight-congrats display-none">
+                        Congratulation. You've managed to escape the danger. Do you want to try it again?
+                    </p>
+                    <input class="display-none" value="xxxx-xxxx"/>
+                    <p class="fight-explain">Click on
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#punch"></use>
+                        </svg>
+                        while escaping to defend yourself.
+                    </p>
+
+                    <button class="fight-start disabled">RUN</button>
+                    <div class="level"></div>
+                    <div class="level"></div>
+                    <div class="level"></div>
+                </article>
+            </div>
+        </div>
+    </div>
+</article><div class="black-box"></div>
+<footer class="footer">
+    <div class="diagonal-2">
+        <div class="black-box"></div>
+        <div class="social">
+            <a href="https://www.facebook.com/digitalshard/" id="facebook"></a>
+            <a href="https://twitter.com/digitalshardint" id="twitter"></a>
+            <a href="https://www.youtube.com/channel/UCqke5WIAwtT0W3X9wy-4vhw" id="youtube"></a>
+        </div>
+        <p>Digital Shard Interactive © 2017</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+fight_scene0.png
+size: 1024,512
+format: RGBA32
+filter: Bilinear,Bilinear
+repeat: none
+hall_plain_v1_sm
+  rotate: false
+  xy: 0, 135
+  size: 294, 377
+  orig: 294, 377
+  offset: 0, 0
+hall_ladder_wall_a2_sm
+  rotate: false
+  xy: 294, 135
+  size: 343, 377
+  orig: 343, 377
+  offset: 0, 0
+room_terminal_pillar_sm
+  rotate: false
+  xy: 637, 233
+  size: 56, 279
+  orig: 56, 279
+  offset: 0, 0
+room_terminal_monitor_sm
+  rotate: false
+  xy: 637, 65
+  size: 190, 168
+  orig: 190, 168
+  offset: 0, 0
+splitter_v1_sm
+  rotate: false
+  xy: 693, 314
+  size: 106, 198
+  orig: 106, 198
+  offset: 0, 0
+banner_sm
+  rotate: false
+  xy: 799, 334
+  size: 149, 178
+  orig: 149, 178
+  offset: 0, 0
